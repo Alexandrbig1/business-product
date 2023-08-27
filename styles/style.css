@@ -658,6 +658,7 @@ a:link {
 
 .news {
   padding-top: 10rem;
+  position: relative;
 }
 
 .news-title,
@@ -749,6 +750,56 @@ a:link {
 .news-dot:hover,
 .news-dot:focus {
   background-color: var(--main-color);
+}
+
+.news-link {
+  pointer-events: none;
+}
+
+/* -------------------------- */
+/* CLASSES TO MAKE MODAL WORK */
+.hidden {
+  display: none;
+}
+
+.modal {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 70%;
+
+  background-color: white;
+  padding: 6rem;
+  border-radius: 5px;
+  box-shadow: 0 3rem 5rem rgba(0, 0, 0, 0.3);
+  z-index: 10;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(200, 200, 200, 0.5);
+  backdrop-filter: blur(3px);
+  z-index: 5;
+}
+
+.close-modal {
+  position: absolute;
+  top: 1.2rem;
+  right: 2rem;
+  font-size: 5rem;
+  color: #333;
+  cursor: pointer;
+  border: none;
+  background: none;
+}
+
+.close-modal:hover {
+  color: var(--main-color-hover);
 }
 
 /* ********* PRICE ********* */
