@@ -1,6 +1,13 @@
 # Building Responsive Webdesign animated with HTML/CSS and JS - project for business "Product"
 
-This repo contains responsive webdesign project for business from freelance, added functionality with Java Script, header is stick when you scrolling the main page and section is connected within smooth scrolling.
+Just finished Building Responsive Web-design animated with HTML/CSS and JS - freelance project for business "Product".
+- HTML/CSS (responsive web design for desktop/tablets and mobile versions);
+- Added functionality with Java Script;
+- Header is stick when you scrolling the main page;
+- Page and section is connected within smooth scrolling;
+- You can open modal window on news section for more details;
+- Main menu is hidden on menu-burger(tablets/mobile);
+- Project wireframe was build on Figma.
 
 ## Languages and Tools:
 <div align="center">  
