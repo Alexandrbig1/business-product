@@ -7,7 +7,7 @@ Just finished Building Responsive Web-design animated with HTML/CSS and JS - fre
 - Page and section is connected within smooth scrolling;
 - You can open modal window on news section for more details;
 - Main menu is hidden on menu-burger(tablets/mobile);
-- Project wireframe was build on Figma. <img src="https://www.vectorlogo.zone/logos/figma/figma-icon.svg" alt="figma" width="40" height="40"/>
+- Project wireframe was build on Figma. <a href="https://www.figma.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/figma/figma-icon.svg" alt="figma" width="40" height="40"/> </a>
 
 ## Languages and Tools:
 <div align="center">  
