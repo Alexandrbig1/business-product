@@ -1,6 +1,8 @@
 # Building Responsive Webdesign animated with HTML/CSS and JS - project for business "Product" <img align="right" src="https://media.giphy.com/media/du3J3cXyzhj75IOgvA/giphy.gif" width="100"/>
 
+## Project Specifications:
 Just finished Building Responsive Web-design animated with HTML/CSS and JS - freelance project for business "Product".
+
 - HTML/CSS (responsive web design for desktop/tablets and mobile versions);
 - Added functionality with Java Script;
 - Header is stick when you scrolling the main page;
