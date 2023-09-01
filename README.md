@@ -1,4 +1,4 @@
-# Building Responsive Webdesign animated with HTML/CSS and JS - project for business "Product"
+# Building Responsive Webdesign animated with HTML/CSS and JS - project for business "Product" <img align="right" src="https://media.giphy.com/media/du3J3cXyzhj75IOgvA/giphy.gif" width="100"/>
 
 Just finished Building Responsive Web-design animated with HTML/CSS and JS - freelance project for business "Product".
 - HTML/CSS (responsive web design for desktop/tablets and mobile versions);
@@ -17,7 +17,7 @@ Just finished Building Responsive Web-design animated with HTML/CSS and JS - fre
 <a href="https://www.javascript.com/" target="_blank"><img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/javascript-original.svg" alt="JavaScript" height="50" /></a>  
 </div>
 
-## Connect with me  
+## Connect with me:
 <div align="center">
 <a href="https://github.com/alexandrbig1" target="_blank">
 <img src=https://img.shields.io/badge/github-%2324292e.svg?&style=for-the-badge&logo=github&logoColor=white alt=github style="margin-bottom: 5px;" />
