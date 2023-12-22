@@ -1,0 +1,27 @@
+{
+  "name": "business-product",
+  "version": "1.0.0",
+  "description": "Project Specifications: Just finished Building Responsive Web-design animated with HTML/CSS and JS - freelance project for business Product.",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
+  },
+  "keywords": [],
+  "author": "Alex Smagin",
+  "license": "MIT",
+  "dependencies": {
+    "vite-plugin-full-reload": "^1.0.5",
+    "vite-plugin-html-inject": "^1.0.1"
+  },
+  "devDependencies": {
+    "gh-pages": "^6.1.0",
+    "@types/glob": "^8.1.0",
+    "glob": "^8.1.0",
+    "vite": "^5.0.10"
+  }
+}

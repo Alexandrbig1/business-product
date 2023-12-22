@@ -4,7 +4,6 @@ const elements = {
   headerCustomersEl: document.querySelector(".header-customers"),
   yearEl: document.querySelector(".year"),
   heroSection: document.querySelector(".hero"),
-  //
   menuEl: document.querySelector(".news-menu"),
   linkEl: document.querySelector(".news-text-subtitle"),
   modalEl: document.querySelector(".modal"),
@@ -29,11 +28,11 @@ const {
   newsTitleEl,
 } = elements;
 
+// For year
 const currentYear = new Date().getFullYear();
 yearEl.textContent = currentYear;
 
 btnMenu.addEventListener("click", onBtnMenuClick);
-//
 menuEl.addEventListener("click", onLinkClickHandler);
 closeBtn.addEventListener("click", onCloseBtnHandler);
 overlayEl.addEventListener("click", onCloseBtnHandler);
@@ -43,6 +42,7 @@ function onBtnMenuClick() {
   headerEl.classList.toggle("nav-open-js");
 }
 
+// For sticky header
 const obs = new IntersectionObserver(
   function (entries) {
     const ent = entries[0];
@@ -83,4 +83,21 @@ function onEscKeyHandler(e) {
   if (e.code === "Escape" && !modalEl.classList.contains("hidden")) {
     onCloseBtnHandler();
   }
+}
+
+// Scroll-UP
+const scrollupBtn = document.querySelector(".scrollup__btn");
+
+const handlerScrollEvent = function () {
+  window.scrollY < 300
+    ? scrollupBtn.classList.add("hidden")
+    : scrollupBtn.classList.remove("hidden");
+};
+
+window.addEventListener("scroll", handlerScrollEvent);
+
+scrollupBtn.addEventListener("click", handlerScrollupBtnClick);
+
+function handlerScrollupBtnClick() {
+  window.scrollTo({ top: 0, behavior: "smooth" });
 }

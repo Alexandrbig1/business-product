@@ -9,6 +9,8 @@
   --transition: all 0.3s;
   --main-text-font: 'Poppins', sans-serif;
   --secondary-text-font: 'Montserrat', sans-serif;
+  --bkg-black-low-opacity-color: rgba(18, 20, 23, 0.5);
+  --bkg-grey-low-opacity-color: rgba(244, 244, 244, 0.5);
 }
 
 * {
@@ -1743,4 +1745,42 @@ a:link {
 
 .pricing-footer {
   padding-top: 15rem;
+}
+
+/* ********* SCROLL-UP ********* */
+/* **************************** */
+
+.scrollup__btn {
+  padding: 12px;
+  position: fixed;
+  bottom: 40px;
+  right: 40px;
+  border-radius: 50px;
+  background-color: var(--bkg-black-low-opacity-color);
+  font-size: 0px;
+  border: 1px solid var(--bkg-grey-low-opacity-color);
+  transition: all 0.3s linear;
+
+  @media (1440px<=width) {
+    bottom: 24px;
+    right: 24px;
+  }
+}
+
+.scrollup__btn:hover,
+.scrollup__btn:focus {
+  border-color: var(--main-color);
+  background-color: var(--text-main-color);
+}
+
+.scrollup__btn:hover .scrollup__btn__icon,
+.scrollup__btn:focus .scrollup__btn__icon {
+  fill: var(--main-color);
+}
+
+.scrollup__btn__icon {
+  height: 32px;
+  width: 32px;
+  fill: var(--text-main-color);
+  transition: all 0.3s linear;
 }
