@@ -101,3 +101,45 @@ scrollupBtn.addEventListener("click", handlerScrollupBtnClick);
 function handlerScrollupBtnClick() {
   window.scrollTo({ top: 0, behavior: "smooth" });
 }
+
+// Smooth section appearing
+
+const sections = document.querySelectorAll(".section");
+
+const lasyLoad = (targets) => {
+  const options = {
+    rootMargin: "100px",
+    threshold: 0.2,
+  };
+
+  const onEntry = (entries, observer) => {
+    entries.forEach(({ isIntersecting, target }) => {
+      if (isIntersecting) {
+        target.classList.add("appear");
+        observer.unobserve(target);
+      }
+    });
+  };
+
+  const sectionsObserver = new IntersectionObserver(onEntry, options);
+
+  targets.forEach((target) => sectionsObserver.observe(target));
+};
+
+setTimeout(() => {
+  lasyLoad(sections);
+}, 250);
+
+// SUBSCRIBE MODAL
+(() => {
+  const refs = {
+    openModalBtn: document.querySelector("[data-subscribe-modal-open]"),
+    closeSubscrModalBtn: document.querySelector("[data-subscribe-modal-close]"),
+    modal: document.querySelector("[data-subscribe-modal]"),
+  };
+  refs.openModalBtn.addEventListener("click", toggleModal);
+  refs.closeSubscrModalBtn.addEventListener("click", toggleModal);
+  function toggleModal() {
+    refs.modal.classList.toggle("is-hidden");
+  }
+})();

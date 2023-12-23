@@ -1,3 +1,6 @@
+/* SUBSCRIBE MODAL */
+@import url('./subscribe-modal.css');
+
 :root {
   --main-color: #02897A;
   --main-color-hover: #346c6d;
@@ -1783,4 +1786,16 @@ a:link {
   width: 32px;
   fill: var(--text-main-color);
   transition: all 0.3s linear;
+}
+
+/* Section smooth appearing */
+.section {
+  transform: translateY(100px);
+  opacity: 0;
+  transition: opacity 500ms linear;
+}
+
+.section.appear {
+  opacity: 1;
+  transform: translateY(0);
 }
