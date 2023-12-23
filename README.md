@@ -68,9 +68,9 @@ This project involves building a responsive and animated web design for the busi
 ![Product Page](./src/public/img/product3.jpg)
 _Caption for Screenshot 2 (Product Home Page)_
 ![Pricing Page](./src/public/img/pricing-page.jpg)
-_Caption for Screenshot 2 (Pricing Page)_
+_Caption for Screenshot 3 (Pricing Page)_
 ![Customers Page](./src/public/img/customers-page.jpg)
-_Caption for Screenshot 2 (Customers Page)_
+_Caption for Screenshot 4 (Customers Page)_
 
 ## Issues
 
