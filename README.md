@@ -1,15 +1,52 @@
-# Building Responsive Webdesign animated with HTML/CSS and JS - project for business "Product" <img align="right" src="https://media.giphy.com/media/du3J3cXyzhj75IOgvA/giphy.gif" width="100"/>
+# Business "Product" Website
 
-## Project Specifications:
-Just finished Building Responsive Web-design animated with HTML/CSS and JS - freelance project for business "Product".
+<img align="right" src="https://media.giphy.com/media/du3J3cXyzhj75IOgvA/giphy.gif" width="100"/>
 
-- HTML/CSS (responsive web design for desktop/tablets and mobile versions);
-- Added functionality with Java Script;
-- Header is stick when you scrolling the main page;
-- Page and section is connected within smooth scrolling;
-- You can open modal window on news section for more details;
-- Main menu is hidden on menu-burger(tablets/mobile);
-- Project wireframe was build on Figma.
+## Project Overview
+
+This project involves building a responsive and animated web design for the business "Product." It is a freelance project that includes HTML/CSS for responsive web design across desktops, tablets, and mobile devices, JavaScript for added functionality, and smooth scrolling to enhance user experience. The project also incorporates a sticky header, a modal window for detailed news, a hidden menu for tablets and mobiles, and a scroll-up button for convenience.
+
+## Table of Contents
+
+- [Features](#features)
+- [Technologies Used](#technologies-used)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Demo](#demo)
+- [Contributing](#contributing)
+- [License](#license)
+
+## Features
+
+1. **Responsive Design:**
+   - Optimized for desktop, tablets, and mobile devices.
+
+2. **JavaScript Functionality:**
+   - Enhanced user experience through interactive features.
+
+3. **Sticky Header:**
+   - The header remains fixed when scrolling through the main page.
+
+4. **Smooth Scrolling:**
+   - Seamless navigation between pages and sections.
+
+5. **Modal Window:**
+   - Detailed news can be viewed in a modal window.
+
+6. **Hidden Menu-Burger:**
+   - The main menu is hidden and accessible through a menu-burger for tablets and mobiles.
+
+7. **Figma Wireframe:**
+   - The project wireframe was created using Figma.
+
+8. **Scroll Up Button:**
+   - Convenient button for scrolling back to the top of the page.
+
+## Technologies Used
+
+- HTML
+- CSS
+- JavaScript
 
 ### Languages and Tools:
 <div align="center">  
