@@ -17,378 +17,379 @@
       rel="stylesheet"
     />
 
-
     <title>Business &dash;&dash; pricing</title>
     <script type="module" crossorigin src="/business-product/assets/index-7pNTQAc-.js"></script>
     <link rel="stylesheet" crossorigin href="/business-product/assets/index-1OmpFQ7i.css">
   </head>
   <body>
+    <!-- HEADER -->
     <header class="header">
-      <div class="header-container container">
-        <a href="./index.html" class="logo-link">
+  <div class="header-container container">
+    <a href="./index.html" class="logo-link">
+      <svg width="40" height="36">
+        <use href="./img/symbol-defs.svg#icon-logo"></use>
+      </svg>
+      <span class="logo-text">Product</span>
+    </a>
+    <div>
+      <nav class="header-nav">
+        <ul class="header-nav-menu">
+          <li>
+            <a href="./index.html" class="header-nav-items">Product</a>
+          </li>
+          <li>
+            <a href="#" class="header-nav-items active">Pricing</a>
+          </li>
+          <li>
+            <a href="./customers.html" class="header-nav-items">Customers</a>
+          </li>
+          <li>
+            <a href="#pricing-promo" class="header-nav-items">Resources</a>
+          </li>
+        </ul>
+        <ul class="header-btns">
+          <li><button class="header-btn--1">Sign In</button></li>
+          <li><button class="header-btn--2">Sign Up</button></li>
+        </ul>
+      </nav>
+    </div>
+    <button class="btn-menu">
+      <svg name="open-menu" class="icon-menu" width="40" height="36">
+        <use href="./img/symbol-defs.svg#icon-menu"></use>
+      </svg>
+      <svg name="close-menu" class="icon-menu" width="40" height="36">
+        <use href="./img/symbol-defs.svg#icon-close"></use>
+      </svg>
+    </button>
+  </div>
+</header>
+
+
+    <!-- MAIN -->
+    <main>
+  <section class="pricing">
+    <div class="price-container container">
+      <h1 class="price-title price-title-pricing">
+        Let’s get some real work done here.
+      </h1>
+      <p class="price-text price-text-pricing">
+        Product is your perfect solution for working. Get started now for free
+      </p>
+      <div class="price-cards-container">
+        <div class="price-card-container">
+          <ul class="price-card-menu">
+            <li class="price-card-items">
+              <span><strong>Free</strong></span>
+            </li>
+            <li class="price-card-items">
+              <p class="price-card-text">Brief price description</p>
+            </li>
+            <li class="price-card-items">
+              <div class="price-dollar-container">
+                <p class="price-value">0</p>
+                <div class="dollar-container">
+                  <span class="dollar-sign">$</span>
+                  <p class="price-card-text price-secondary-text">
+                    Per &sol; month
+                  </p>
+                </div>
+              </div>
+            </li>
+            <li class="price-card-items">
+              <p class="price-card-text">Only 2 Operators</p>
+            </li>
+            <li class="price-card-items">
+              <p class="price-card-text">Notifications</p>
+            </li>
+            <li class="price-card-items">
+              <p class="price-card-text">Landing Pages</p>
+            </li>
+          </ul>
+
+          <button class="price-card-btn">Order Now</button>
+        </div>
+        <div class="price-card-container price-card-active">
+          <ul class="price-card-menu">
+            <li class="price-card-items">
+              <p>
+                <strong class="price-card-text-active">Standard</strong>
+              </p>
+            </li>
+            <li class="price-card-items">
+              <p class="price-card-text price-card-text-active">
+                Brief price description
+              </p>
+            </li>
+            <li class="price-card-items">
+              <div class="price-dollar-container">
+                <p class="price-value value--active">5</p>
+                <div class="dollar-container">
+                  <span class="dollar-sign value--active">$</span>
+                  <p class="price-card-text price-secondary-text">
+                    Per &sol; month
+                  </p>
+                </div>
+              </div>
+            </li>
+            <li class="price-card-items">
+              <p class="price-card-text price-card-text-active">5+ Operators</p>
+            </li>
+            <li class="price-card-items">
+              <p class="price-card-text price-card-text-active">
+                Notifications
+              </p>
+            </li>
+            <li class="price-card-items">
+              <p class="price-card-text price-card-text-active">
+                Landing Pages
+              </p>
+            </li>
+          </ul>
+
+          <button class="price-card-btn price-card-btn-active">
+            Order Now
+          </button>
+        </div>
+        <div class="price-card-container">
+          <ul class="price-card-menu">
+            <li class="price-card-items">
+              <p><strong>Premium</strong></p>
+            </li>
+            <li class="price-card-items">
+              <p class="price-card-text">Brief price description</p>
+            </li>
+            <li class="price-card-items">
+              <div class="price-dollar-container">
+                <p class="price-value">10</p>
+                <div class="dollar-container">
+                  <span class="dollar-sign">$</span>
+                  <p class="price-card-text price-secondary-text">
+                    Per &sol; month
+                  </p>
+                </div>
+              </div>
+            </li>
+            <li class="price-card-items">
+              <p class="price-card-text">10+ Operators</p>
+            </li>
+            <li class="price-card-items">
+              <p class="price-card-text">Notifications</p>
+            </li>
+            <li class="price-card-items">
+              <p class="price-card-text">Landing Pages</p>
+            </li>
+          </ul>
+
+          <button class="price-card-btn">Order Now</button>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="enterprise">
+    <div class="enterprise-container container">
+      <h4 class="pricing-enterprise-subtitle">ENTERPRISE</h4>
+      <h2 class="pricing-enterprise-title">
+        Are you interested in a custom-tailored plan?
+      </h2>
+      <p class="pricing-enterprise-text">
+        Product is a set of advanced features for really large teams with
+        projects.
+      </p>
+      <button class="pricing-enterprise-btn">Get in touch with us</button>
+    </div>
+  </section>
+  <section class="specifies">
+    <div class="container">
+      <h2 class="specifies-title">
+        Product is being used with great effects alongside:
+      </h2>
+      <div class="specifies-container">
+        <div class="specifies-img-container">
+          <svg width="528" height="392" class="specifies-img">
+            <use href="./img/symbol-defs.svg#icon-pricing"></use>
+          </svg>
+        </div>
+        <div class="specifies-text-container">
+          <ul class="specifies-menu">
+            <li>
+              <div class="specifies-icon-container">
+                <div class="specifies-icon-bg-container">
+                  <svg class="specifies-icon" width="24" height="24">
+                    <use href="./img/symbol-defs.svg#icon-spec1"></use>
+                  </svg>
+                </div>
+                <h4 class="specifies-text-title">Enterpreneur</h4>
+              </div>
+              <p class="specifies-text">
+                Product is a great way to help medium and samall enterprise
+                owners achieve their goals
+              </p>
+            </li>
+            <li>
+              <div class="specifies-icon-container">
+                <div class="specifies-icon-bg-container">
+                  <svg class="specifies-icon" width="24" height="24">
+                    <use href="./img/symbol-defs.svg#icon-spec2"></use>
+                  </svg>
+                </div>
+                <h4 class="specifies-text-title">Accountants</h4>
+              </div>
+              <p class="specifies-text">
+                Whether you are working on contract with clients, or on other
+                key accounting documents, Product is for you
+              </p>
+            </li>
+            <li>
+              <div class="specifies-icon-container">
+                <div class="specifies-icon-bg-container">
+                  <svg class="specifies-icon" width="24" height="24">
+                    <use href="./img/symbol-defs.svg#icon-spec3"></use>
+                  </svg>
+                </div>
+                <h4 class="specifies-text-title">Universities</h4>
+              </div>
+              <p class="specifies-text">
+                Organize university projects and have documents easily graded
+                online with Product
+              </p>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="faq">
+    <div class="faq-container container">
+      <h2 class="faq-title">Frequently asked question</h2>
+      <p class="faq-title-text">
+        Something is not clear? You need help? Check our FAQ section
+      </p>
+      <ul class="faq-menu">
+        <li class="faq-items">
+          <svg width="24" height="24">
+            <use href="./img/symbol-defs.svg#icon-plus"></use>
+          </svg>
+          <p class="faq-text">What are my payment option?</p>
+        </li>
+        <li class="faq-items minus-item">
+          <svg width="24" height="24">
+            <use href="./img/symbol-defs.svg#icon-minus"></use>
+          </svg>
+          <p class="faq-text">How can I invite collaborator to platform?</p>
+        </li>
+        <li class="faq-items">
+          <p class="faq-minus-text">
+            After creating your account you will have an oppurtunity to create
+            your first project that will be associated withthe collaborators
+            e-mail. An invitation will be sent automatically. Then, invited user
+            will have to confirm his account by e-mail and finish userd
+            onboarding.
+          </p>
+        </li>
+        <li class="faq-items">
+          <svg width="24" height="24">
+            <use href="./img/symbol-defs.svg#icon-plus"></use>
+          </svg>
+          <p class="faq-text">Can I upgrade my plan?</p>
+        </li>
+        <li class="faq-items">
+          <svg width="24" height="24">
+            <use href="./img/symbol-defs.svg#icon-plus"></use>
+          </svg>
+          <p class="faq-text">Can I cancel my plan at anytime?</p>
+        </li>
+      </ul>
+    </div>
+  </section>
+  <section id="pricing-promo" class="promo pricing-promo">
+    <div class="promo-container container">
+      <div>
+        <p class="promo-text">
+          Join 100 Compannies who boost their business with Product
+        </p>
+        <button class="promo-btn">Get This</button>
+      </div>
+      <svg class="promo-icon" width="350" height="350">
+        <use href="./img/symbol-defs.svg#screen"></use>
+      </svg>
+    </div>
+  </section>
+</main>
+
+
+    <!-- FOOTER -->
+    <footer class="footer pricing-footer">
+  <div class="footer-container container">
+    <div>
+      <div class="footer-logo">
+        <a href="#" class="logo-link">
           <svg width="40" height="36">
             <use href="./img/symbol-defs.svg#icon-logo"></use>
           </svg>
           <span class="logo-text">Product</span>
         </a>
-        <div>
-          <nav class="header-nav">
-            <ul class="header-nav-menu">
-              <li>
-                <a href="./index.html" class="header-nav-items">Product</a>
-              </li>
-              <li>
-                <a href="#" class="header-nav-items active">Pricing</a>
-              </li>
-              <li>
-                <a href="./customers.html" class="header-nav-items"
-                  >Customers</a
-                >
-              </li>
-              <li>
-                <a href="#pricing-promo" class="header-nav-items">Resources</a>
-              </li>
-            </ul>
-            <ul class="header-btns">
-              <li><button class="header-btn--1">Sign In</button></li>
-              <li><button class="header-btn--2">Sign Up</button></li>
-            </ul>
-          </nav>
-        </div>
-        <button class="btn-menu">
-          <svg name="open-menu" class="icon-menu" width="40" height="36">
-            <use href="./img/symbol-defs.svg#icon-menu"></use>
-          </svg>
-          <svg name="close-menu" class="icon-menu" width="40" height="36">
-            <use href="./img/symbol-defs.svg#icon-close"></use>
-          </svg>
-        </button>
       </div>
-    </header>
-    <main>
-      <section class="pricing">
-        <div class="price-container container">
-          <h1 class="price-title price-title-pricing">
-            Let’s get some real work done here.
-          </h1>
-          <p class="price-text price-text-pricing">
-            Product is your perfect solution for working. Get started now for
-            free
-          </p>
-          <div class="price-cards-container">
-            <div class="price-card-container">
-              <ul class="price-card-menu">
-                <li class="price-card-items">
-                  <span><strong>Free</strong></span>
-                </li>
-                <li class="price-card-items">
-                  <p class="price-card-text">Brief price description</p>
-                </li>
-                <li class="price-card-items">
-                  <div class="price-dollar-container">
-                    <p class="price-value">0</p>
-                    <div class="dollar-container">
-                      <span class="dollar-sign">$</span>
-                      <p class="price-card-text price-secondary-text">
-                        Per &sol; month
-                      </p>
-                    </div>
-                  </div>
-                </li>
-                <li class="price-card-items">
-                  <p class="price-card-text">Only 2 Operators</p>
-                </li>
-                <li class="price-card-items">
-                  <p class="price-card-text">Notifications</p>
-                </li>
-                <li class="price-card-items">
-                  <p class="price-card-text">Landing Pages</p>
-                </li>
-              </ul>
-
-              <button class="price-card-btn">Order Now</button>
-            </div>
-            <div class="price-card-container price-card-active">
-              <ul class="price-card-menu">
-                <li class="price-card-items">
-                  <p>
-                    <strong class="price-card-text-active">Standard</strong>
-                  </p>
-                </li>
-                <li class="price-card-items">
-                  <p class="price-card-text price-card-text-active">
-                    Brief price description
-                  </p>
-                </li>
-                <li class="price-card-items">
-                  <div class="price-dollar-container">
-                    <p class="price-value value--active">5</p>
-                    <div class="dollar-container">
-                      <span class="dollar-sign value--active">$</span>
-                      <p class="price-card-text price-secondary-text">
-                        Per &sol; month
-                      </p>
-                    </div>
-                  </div>
-                </li>
-                <li class="price-card-items">
-                  <p class="price-card-text price-card-text-active">
-                    5+ Operators
-                  </p>
-                </li>
-                <li class="price-card-items">
-                  <p class="price-card-text price-card-text-active">
-                    Notifications
-                  </p>
-                </li>
-                <li class="price-card-items">
-                  <p class="price-card-text price-card-text-active">
-                    Landing Pages
-                  </p>
-                </li>
-              </ul>
-
-              <button class="price-card-btn price-card-btn-active">
-                Order Now
-              </button>
-            </div>
-            <div class="price-card-container">
-              <ul class="price-card-menu">
-                <li class="price-card-items">
-                  <p><strong>Premium</strong></p>
-                </li>
-                <li class="price-card-items">
-                  <p class="price-card-text">Brief price description</p>
-                </li>
-                <li class="price-card-items">
-                  <div class="price-dollar-container">
-                    <p class="price-value">10</p>
-                    <div class="dollar-container">
-                      <span class="dollar-sign">$</span>
-                      <p class="price-card-text price-secondary-text">
-                        Per &sol; month
-                      </p>
-                    </div>
-                  </div>
-                </li>
-                <li class="price-card-items">
-                  <p class="price-card-text">10+ Operators</p>
-                </li>
-                <li class="price-card-items">
-                  <p class="price-card-text">Notifications</p>
-                </li>
-                <li class="price-card-items">
-                  <p class="price-card-text">Landing Pages</p>
-                </li>
-              </ul>
-
-              <button class="price-card-btn">Order Now</button>
-            </div>
-          </div>
+      <div class="footer-social">
+        <div class="social-bg">
+          <a href="#"
+            ><svg class="social-icons" width="24" height="24">
+              <use href="./img/symbol-defs.svg#icon-instagram"></use></svg
+          ></a>
         </div>
-      </section>
-      <section class="enterprise">
-        <div class="enterprise-container container">
-          <h4 class="pricing-enterprise-subtitle">ENTERPRISE</h4>
-          <h2 class="pricing-enterprise-title">
-            Are you interested in a custom-tailored plan?
-          </h2>
-          <p class="pricing-enterprise-text">
-            Product is a set of advanced features for really large teams with
-            projects.
-          </p>
-          <button class="pricing-enterprise-btn">Get in touch with us</button>
+        <div class="social-bg">
+          <a href="#"
+            ><svg class="social-icons" width="24" height="24">
+              <use href="./img/symbol-defs.svg#icon-facebook"></use></svg
+          ></a>
         </div>
-      </section>
-      <section class="specifies">
-        <div class="container">
-          <h2 class="specifies-title">
-            Product is being used with great effects alongside:
-          </h2>
-          <div class="specifies-container">
-            <div class="specifies-img-container">
-              <svg width="528" height="392" class="specifies-img">
-                <use href="./img/symbol-defs.svg#icon-pricing"></use>
-              </svg>
-            </div>
-            <div class="specifies-text-container">
-              <ul class="specifies-menu">
-                <li>
-                  <div class="specifies-icon-container">
-                    <div class="specifies-icon-bg-container">
-                      <svg class="specifies-icon" width="24" height="24">
-                        <use href="./img/symbol-defs.svg#icon-spec1"></use>
-                      </svg>
-                    </div>
-                    <h4 class="specifies-text-title">Enterpreneur</h4>
-                  </div>
-                  <p class="specifies-text">
-                    Product is a great way to help medium and samall enterprise
-                    owners achieve their goals
-                  </p>
-                </li>
-                <li>
-                  <div class="specifies-icon-container">
-                    <div class="specifies-icon-bg-container">
-                      <svg class="specifies-icon" width="24" height="24">
-                        <use href="./img/symbol-defs.svg#icon-spec2"></use>
-                      </svg>
-                    </div>
-                    <h4 class="specifies-text-title">Accountants</h4>
-                  </div>
-                  <p class="specifies-text">
-                    Whether you are working on contract with clients, or on
-                    other key accounting documents, Product is for you
-                  </p>
-                </li>
-                <li>
-                  <div class="specifies-icon-container">
-                    <div class="specifies-icon-bg-container">
-                      <svg class="specifies-icon" width="24" height="24">
-                        <use href="./img/symbol-defs.svg#icon-spec3"></use>
-                      </svg>
-                    </div>
-                    <h4 class="specifies-text-title">Universities</h4>
-                  </div>
-                  <p class="specifies-text">
-                    Organize university projects and have documents easily
-                    graded online with Product
-                  </p>
-                </li>
-              </ul>
-            </div>
-          </div>
-        </div>
-      </section>
-      <section class="faq">
-        <div class="faq-container container">
-          <h2 class="faq-title">Frequently asked question</h2>
-          <p class="faq-title-text">
-            Something is not clear? You need help? Check our FAQ section
-          </p>
-          <ul class="faq-menu">
-            <li class="faq-items">
-              <svg width="24" height="24">
-                <use href="./img/symbol-defs.svg#icon-plus"></use>
-              </svg>
-              <p class="faq-text">What are my payment option?</p>
-            </li>
-            <li class="faq-items minus-item">
-              <svg width="24" height="24">
-                <use href="./img/symbol-defs.svg#icon-minus"></use>
-              </svg>
-              <p class="faq-text">How can I invite collaborator to platform?</p>
-            </li>
-            <li class="faq-items">
-              <p class="faq-minus-text">
-                After creating your account you will have an oppurtunity to
-                create your first project that will be associated withthe
-                collaborators e-mail. An invitation will be sent automatically.
-                Then, invited user will have to confirm his account by e-mail
-                and finish userd onboarding.
-              </p>
-            </li>
-            <li class="faq-items">
-              <svg width="24" height="24">
-                <use href="./img/symbol-defs.svg#icon-plus"></use>
-              </svg>
-              <p class="faq-text">Can I upgrade my plan?</p>
-            </li>
-            <li class="faq-items">
-              <svg width="24" height="24">
-                <use href="./img/symbol-defs.svg#icon-plus"></use>
-              </svg>
-              <p class="faq-text">Can I cancel my plan at anytime?</p>
-            </li>
-          </ul>
-        </div>
-      </section>
-      <section id="pricing-promo" class="promo pricing-promo">
-        <div class="promo-container container">
-          <div>
-            <p class="promo-text">
-              Join 100 Compannies who boost their business with Product
-            </p>
-            <button class="promo-btn">Get This</button>
-          </div>
-          <svg class="promo-icon" width="350" height="350">
-            <use href="./img/symbol-defs.svg#screen"></use>
-          </svg>
-        </div>
-      </section>
-    </main>
-    <footer class="footer pricing-footer">
-      <div class="footer-container container">
-        <div>
-          <div class="footer-logo">
-            <a href="#" class="logo-link">
-              <svg width="40" height="36">
-                <use href="./img/symbol-defs.svg#icon-logo"></use>
-              </svg>
-              <span class="logo-text">Product</span>
-            </a>
-          </div>
-          <div class="footer-social">
-            <div class="social-bg">
-              <a href="#"
-                ><svg class="social-icons" width="24" height="24">
-                  <use href="./img/symbol-defs.svg#icon-instagram"></use></svg
-              ></a>
-            </div>
-            <div class="social-bg">
-              <a href="#"
-                ><svg class="social-icons" width="24" height="24">
-                  <use href="./img/symbol-defs.svg#icon-facebook"></use></svg
-              ></a>
-            </div>
-            <div class="social-bg">
-              <a href="#"
-                ><svg class="social-icons" width="24" height="24">
-                  <use href="./img/symbol-defs.svg#icon-twitter"></use></svg
-              ></a>
-            </div>
-          </div>
-        </div>
-        <ul class="footer-resources">
-          <li><h4 class="footer-text-title">Resource</h4></li>
-          <li><p class="footer-text">About us</p></li>
-          <li><p class="footer-text">Blog</p></li>
-          <li>
-            <p class="footer-text">Contact</p>
-          </li>
-          <li>
-            <p class="footer-text">FAQ</p>
-          </li>
-        </ul>
-        <ul class="footer-stuff">
-          <li><h4 class="footer-text-title">Legal Stuff</h4></li>
-          <li><p class="footer-text">Disclaimer</p></li>
-          <li><p class="footer-text">Financing</p></li>
-          <li><p class="footer-text">Privacy Policy</p></li>
-          <li><p class="footer-text">Terms of Service</p></li>
-        </ul>
-        <div class="footer-sign">
-          <h3 class="footer-sign-title">
-            knowing you're always on the best energy deal.
-          </h3>
-          <label class="label-sign-up" for="sign-up">
-            <svg class="sign-up-label" width="18" height="28">
-              <use href="./img/symbol-defs.svg#icon-mobile-screen"></use>
-            </svg>
-            <input
-              id="sign-up"
-              class="footer-sign-input"
-              type="text"
-              placeholder="+1"
-          /></label>
-
-          <button class="footer-sign-btn">Sign up Now</button>
+        <div class="social-bg">
+          <a href="#"
+            ><svg class="social-icons" width="24" height="24">
+              <use href="./img/symbol-defs.svg#icon-twitter"></use></svg
+          ></a>
         </div>
       </div>
-      <p class="footer-mark">
-        By Alex Smagin &copy; <span class="year">2023</span> All rights
-        reserved.
-      </p>
-    </footer>
+    </div>
+    <ul class="footer-resources">
+      <li><h4 class="footer-text-title">Resource</h4></li>
+      <li><p class="footer-text">About us</p></li>
+      <li><p class="footer-text">Blog</p></li>
+      <li>
+        <p class="footer-text">Contact</p>
+      </li>
+      <li>
+        <p class="footer-text">FAQ</p>
+      </li>
+    </ul>
+    <ul class="footer-stuff">
+      <li><h4 class="footer-text-title">Legal Stuff</h4></li>
+      <li><p class="footer-text">Disclaimer</p></li>
+      <li><p class="footer-text">Financing</p></li>
+      <li><p class="footer-text">Privacy Policy</p></li>
+      <li><p class="footer-text">Terms of Service</p></li>
+    </ul>
+    <div class="footer-sign">
+      <h3 class="footer-sign-title">
+        knowing you're always on the best energy deal.
+      </h3>
+      <label class="label-sign-up" for="sign-up">
+        <svg class="sign-up-label" width="18" height="28">
+          <use href="./img/symbol-defs.svg#icon-mobile-screen"></use>
+        </svg>
+        <input
+          id="sign-up"
+          class="footer-sign-input"
+          type="text"
+          placeholder="+1"
+      /></label>
+
+      <button class="footer-sign-btn">Sign up Now</button>
+    </div>
+  </div>
+  <p class="footer-mark">
+    By Alex Smagin &copy; <span class="year">2023</span> All rights reserved.
+  </p>
+</footer>
+
   </body>
 </html>
