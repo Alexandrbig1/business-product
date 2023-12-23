@@ -2,7 +2,7 @@
 
 <img align="right" src="https://media.giphy.com/media/du3J3cXyzhj75IOgvA/giphy.gif" width="100"/>
 
-[![GitHub last commit](https://img.shields.io/github/last-commit/Alexandrbig1/your-energy-fitness-app)](https://github.com/Alexandrbig1/goal-craft/commits/main)
+[![GitHub last commit](https://img.shields.io/github/last-commit/Alexandrbig1/business-product)](https://github.com/Alexandrbig1/goal-craft/commits/main)
 [![JavaScript](https://img.shields.io/badge/JavaScript-Latest-yellow.svg)](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
 [![HTML](https://img.shields.io/badge/HTML5-<!DOCTYPE%20html>-orange)](https://developer.mozilla.org/en-US/docs/Web/HTML)
 [![CSS](https://img.shields.io/badge/CSS3-styles-blue)](https://developer.mozilla.org/en-US/docs/Web/CSS)
@@ -16,33 +16,39 @@ This project involves building a responsive and animated web design for the busi
 
 - [Features](#features)
 - [Technologies Used](#technologies-used)
-- [Installation](#installation)
-- [Usage](#usage)
-- [Demo](#demo)
-- [Contributing](#contributing)
+- [Screenshots](#screenshots)
+- [Issues](#issues)
 - [License](#license)
+- [Contact](#connect-with-me)
 
 ## Features
 
 1. **Responsive Design:**
+
    - Optimized for desktop, tablets, and mobile devices.
 
 2. **JavaScript Functionality:**
+
    - Enhanced user experience through interactive features.
 
 3. **Sticky Header:**
+
    - The header remains fixed when scrolling through the main page.
 
 4. **Smooth Scrolling:**
+
    - Seamless navigation between pages and sections.
 
 5. **Modal Window:**
+
    - Detailed news can be viewed in a modal window.
 
 6. **Hidden Menu-Burger:**
+
    - The main menu is hidden and accessible through a menu-burger for tablets and mobiles.
 
 7. **Figma Wireframe:**
+
    - The project wireframe was created using Figma.
 
 8. **Scroll Up Button:**
@@ -57,10 +63,14 @@ This project involves building a responsive and animated web design for the busi
 
 ## Screenshots
 
-![Studio Page](./src/img/simply-chocolate1.jpg) _Caption for Screenshot 1
-(simply-chocolate Home Page)_ 
-![Portfolio Page](./src/img/simply-chocolate2.jpg)
-_Caption for Screenshot 2 (simply-chocolate Home Page)_
+![Product Page](./src/public/img/product.jpg) _Caption for Screenshot 1
+(Product Home Page)_
+![Product Page](./src/public/img/product3.jpg)
+_Caption for Screenshot 2 (Product Home Page)_
+![Pricing Page](./src/public/img/pricing-page.jpg)
+_Caption for Screenshot 2 (Pricing Page)_
+![Customers Page](./src/public/img/customers-page.jpg)
+_Caption for Screenshot 2 (Customers Page)_
 
 ## Issues
 
@@ -77,6 +87,7 @@ I welcome feedback and suggestions from users to improve the application's
 functionality and user experience.
 
 ### Languages and Tools:
+
 <div align="center">  
  
 <a href="https://en.wikipedia.org/wiki/HTML5" target="_blank"><img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/html5-original-wordmark.svg" alt="HTML5" height="50" /></a>
@@ -86,7 +97,8 @@ functionality and user experience.
 <a href="https://git-scm.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" alt="git" width="40" height="40"/> </a>
 </div>
 
-### Connect with me:  
+### Connect with me:
+
 <div align="center">
 <a href="https://linkedin.com/in/alex-smagin29" target="_blank">
 <img src=https://img.shields.io/badge/linkedin-%231E77B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white alt=linkedin style="margin-bottom: 5px;" />
