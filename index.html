@@ -3,6 +3,15 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Responsive and animated website for the business 'Product' with HTML, CSS, and JavaScript."
+    />
+    <meta
+      name="keywords"
+      content="Business, Product, Responsive Web Design, HTML, CSS, JavaScript, Animation, Figma, Freelance Project"
+    />
+    <meta name="author" content="Alex Smagin" />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css"
@@ -18,8 +27,8 @@
     />
 
     <title>Business &dash;&dash; product</title>
-    <script type="module" crossorigin src="/business-product/assets/index-7pNTQAc-.js"></script>
-    <link rel="stylesheet" crossorigin href="/business-product/assets/index-1OmpFQ7i.css">
+    <script type="module" crossorigin src="/business-product/assets/index-QtVGSg6P.js"></script>
+    <link rel="stylesheet" crossorigin href="/business-product/assets/index-ArWzEUUS.css">
   </head>
   <body>
     <!-- HEADER -->
@@ -67,7 +76,7 @@
 
     <!-- MAIN -->
     <main>
-  <section class="hero">
+  <section class="hero section">
     <div class="hero-container container">
       <div class="hero-text-container">
         <h1 class="hero-title">Work at the speed of thought</h1>
@@ -90,7 +99,7 @@
       </div>
     </div>
   </section>
-  <section class="feature">
+  <section class="feature section">
     <div class="container">
       <h2 class="feature-title">Product was Built Specifically for You</h2>
       <ul class="feature-menu">
@@ -134,7 +143,7 @@
       </div>
     </div>
   </section>
-  <section class="business">
+  <section class="business section">
     <div class="business-container container">
       <div class="business-text-container">
         <div>
@@ -167,7 +176,7 @@
       </div>
     </div>
   </section>
-  <section class="support">
+  <section class="support section">
     <div class="support-container container">
       <div class="business-img">
         <svg class="support-icon" width="540" height="500">
@@ -234,7 +243,7 @@
       </div>
     </div>
   </section>
-  <section class="collaboration">
+  <section class="collaboration section">
     <div class="collaboration-container container">
       <div class="collaboration-text-container">
         <div>
@@ -268,7 +277,7 @@
       </div>
     </div>
   </section>
-  <section class="staff">
+  <section class="staff section">
     <div class="staff-container container">
       <h2 class="staff-title">Quick & Easy Process</h2>
       <p class="staff-title-text">
@@ -322,7 +331,7 @@
       </div>
     </div>
   </section>
-  <section class="news" id="news">
+  <section class="news section" id="news">
     <div class="news-container container">
       <h2 class="news-title">Contents Strategies</h2>
       <p class="news-title-text">
@@ -398,7 +407,7 @@
       <div class="overlay hidden"></div>
     </div>
   </section>
-  <section class="price">
+  <section class="price section">
     <div class="price-container container">
       <h2 class="price-title">Price Table</h2>
       <p class="price-text">We offer competitive price</p>
@@ -512,7 +521,7 @@
       </div>
     </div>
   </section>
-  <section class="feedback">
+  <section class="feedback section">
     <div class="feedback-container container">
       <h2 class="feedback-title">What Clients Say</h2>
       <p class="feedback-title-text">
@@ -595,7 +604,7 @@
       </div>
     </div>
   </section>
-  <section id="promo" class="promo">
+  <section id="promo" class="promo section">
     <div class="promo-container container">
       <div>
         <p class="promo-text">
@@ -692,13 +701,49 @@
         </div>
       </label>
 
-      <button type="submit" class="footer-sign-btn">Sign up Now</button>
+      <button class="footer-sign-btn" data-subscribe-modal-open>
+        Sign up Now
+      </button>
     </div>
   </div>
   <p class="footer-mark">
     By Alex Smagin &copy; <span class="year">2023</span> All rights reserved.
   </p>
 </footer>
+
+
+    <!-- SUBSCRIBE MODAL -->
+    <div class="explore-backdrop is-hidden" data-subscribe-modal>
+  <div class="explore-modal">
+    <button class="explore-close-btn" type="button" data-subscribe-modal-close>
+      <svg class="explore-close-icon" width="20" height="20">
+        <use href="/business-product/img/icons.svg#icon-close-icon"></use>
+      </svg>
+    </button>
+    <div class="explore-text-wrapper">
+      <h2 class="explore-title">
+        Sign up to our
+        <span class="span-new-choc-first"
+          ><span class="span-new-choc">project's</span> first!</span
+        >
+      </h2>
+      <form class="explore-form">
+        <span class="explore-inp-btn-wrapper">
+          <label class="explore-label">
+            <input
+              class="explore-input"
+              type="email"
+              name="subscribe_email"
+              placeholder="Enter your email"
+            />
+          </label>
+          <button class="explore-submit-btn" type="submit">Submit</button>
+        </span>
+      </form>
+    </div>
+  </div>
+</div>
+
 
   </body>
 </html>
