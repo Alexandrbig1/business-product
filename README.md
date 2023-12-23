@@ -2,6 +2,12 @@
 
 <img align="right" src="https://media.giphy.com/media/du3J3cXyzhj75IOgvA/giphy.gif" width="100"/>
 
+[![GitHub last commit](https://img.shields.io/github/last-commit/Alexandrbig1/your-energy-fitness-app)](https://github.com/Alexandrbig1/goal-craft/commits/main)
+[![JavaScript](https://img.shields.io/badge/JavaScript-Latest-yellow.svg)](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
+[![HTML](https://img.shields.io/badge/HTML5-<!DOCTYPE%20html>-orange)](https://developer.mozilla.org/en-US/docs/Web/HTML)
+[![CSS](https://img.shields.io/badge/CSS3-styles-blue)](https://developer.mozilla.org/en-US/docs/Web/CSS)
+[![Vite](https://img.shields.io/badge/Vite-5.0.10-green)](https://vitejs.dev/)
+
 ## Project Overview
 
 This project involves building a responsive and animated web design for the business "Product." It is a freelance project that includes HTML/CSS for responsive web design across desktops, tablets, and mobile devices, JavaScript for added functionality, and smooth scrolling to enhance user experience. The project also incorporates a sticky header, a modal window for detailed news, a hidden menu for tablets and mobiles, and a scroll-up button for convenience.
@@ -44,9 +50,31 @@ This project involves building a responsive and animated web design for the busi
 
 ## Technologies Used
 
-- HTML
-- CSS
-- JavaScript
+- ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E.svg?style=for-the-badge&logo=JavaScript&logoColor=black)
+- ![HTML](https://img.shields.io/badge/HTML5-E34F26.svg?style=for-the-badge&logo=HTML5&logoColor=white)
+- ![CSS](https://img.shields.io/badge/CSS3-1572B6.svg?style=for-the-badge&logo=CSS3&logoColor=white)
+- ![Vite](https://img.shields.io/badge/Vite-646CFF.svg?style=for-the-badge&logo=Vite&logoColor=white)
+
+## Screenshots
+
+![Studio Page](./src/img/simply-chocolate1.jpg) _Caption for Screenshot 1
+(simply-chocolate Home Page)_ 
+![Portfolio Page](./src/img/simply-chocolate2.jpg)
+_Caption for Screenshot 2 (simply-chocolate Home Page)_
+
+## Issues
+
+If you encounter any issues or have suggestions, please
+[open an issue](https://github.com/Alexandrbig1/business-product/issues).
+
+## License
+
+This project is licensed under the [MIT License](LICENSE).
+
+## Feedback
+
+I welcome feedback and suggestions from users to improve the application's
+functionality and user experience.
 
 ### Languages and Tools:
 <div align="center">  
