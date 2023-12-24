@@ -865,7 +865,7 @@
             class="modal-start-form-input"
             placeholder="Name"
             required
-            pattern="^[a-zA-Z]+\s[a-zA-Z]+$"
+            pattern="^[a-zA-Z]+(['-]?[a-zA-Z]+)*$"
         /></label>
         <label class="modal-start-form-label modal-name-field">
           <input
@@ -874,7 +874,7 @@
             class="modal-start-form-input"
             placeholder="Surname"
             required
-            pattern="^[a-zA-Z]+\s[a-zA-Z]+$" /></label
+            pattern="^[a-zA-Z]+(['-]?[a-zA-Z]+)*$" /></label
       ></span>
       <label class="modal-start-form-label">
         <span class="modal-start-form-input-desc">Email</span>
@@ -884,7 +884,7 @@
           class="modal-start-form-input"
           placeholder="Enter your email"
           required
-          pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$"
+          pattern="[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}"
         />
       </label>
       <label class="modal-start-form-label">
@@ -896,11 +896,8 @@
             class="modal-start-form-input start-tel"
             placeholder="Phone number"
             required
-            pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" /><svg
-            class="modal-start-icon"
-            width="22"
-            height="13"
-          >
+            pattern="(?:\(\d{3}\)|\d{3})[-.\s]?\d{3}[-.\s]?\d{4}" />
+          <svg class="modal-start-icon" width="22" height="13">
             <use href="/business-product/img/icons.svg#icon-usa"></use></svg
         ></span>
       </label>
