@@ -1,0 +1,71 @@
+<div class="modal-backdrop is-hidden" data-modal>
+  <div class="modal-start">
+    <button class="modal-start-close-btn" type="button" data-modal-close>
+      <svg class="modal-start-close-icon" width="16" height="16">
+        <use href="/img/icons.svg#icon-close-icon"></use>
+      </svg>
+    </button>
+    <h2 class="modal-start-form-title">
+      Get <span class="modal-start-form-title-right">Started</span>
+    </h2>
+    <p class="modal-start-form-input-desc">Personal information</p>
+    <form class="modal-start-form">
+      <span class="modal-start-name-thumb">
+        <label class="modal-start-form-label modal-name-field">
+          <input
+            type="text"
+            name="user_name"
+            class="modal-start-form-input"
+            placeholder="Name"
+            required
+            pattern="^[a-zA-Z]+\s[a-zA-Z]+$"
+        /></label>
+        <label class="modal-start-form-label modal-name-field">
+          <input
+            type="text"
+            name="user_surname"
+            class="modal-start-form-input"
+            placeholder="Surname"
+            required
+            pattern="^[a-zA-Z]+\s[a-zA-Z]+$" /></label
+      ></span>
+      <label class="modal-start-form-label">
+        <span class="modal-start-form-input-desc">Email</span>
+        <input
+          type="email"
+          name="user_mail"
+          class="modal-start-form-input"
+          placeholder="Enter your email"
+          required
+          pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$"
+        />
+      </label>
+      <label class="modal-start-form-label">
+        <span class="modal-start-form-input-desc">Phone number</span>
+        <span class="modal-start-input-wrapper start-tel-thumb"
+          ><input
+            type="tel"
+            name="user_phone"
+            class="modal-start-form-input start-tel"
+            placeholder="Phone number"
+            required
+            pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" /><svg
+            class="modal-start-icon"
+            width="22"
+            height="13"
+          >
+            <use href="/img/icons.svg#icon-usa"></use></svg
+        ></span>
+      </label>
+      <label class="modal-start-form-label">
+        <span class="modal-start-form-input-desc">Comment</span>
+        <textarea
+          name="user_message"
+          class="modal-start-form-message"
+          placeholder="Enter text"
+        ></textarea>
+      </label>
+      <button type="submit" class="modal-start-form-btn">Submit</button>
+    </form>
+  </div>
+</div>

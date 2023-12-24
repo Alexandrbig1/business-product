@@ -130,6 +130,22 @@ setTimeout(() => {
   lasyLoad(sections);
 }, 250);
 
+// MODAL WINDOW
+(() => {
+  const refs = {
+    openModalBtn: document.querySelector("[data-modal-open]"),
+    openPromoModalBtn: document.querySelector("[data-modal-open-promo]"),
+    closeModalBtn: document.querySelector("[data-modal-close]"),
+    modal: document.querySelector("[data-modal]"),
+  };
+  refs.openModalBtn.addEventListener("click", toggleModal);
+  refs.openPromoModalBtn.addEventListener("click", toggleModal);
+  refs.closeModalBtn.addEventListener("click", toggleModal);
+  function toggleModal() {
+    refs.modal.classList.toggle("is-hidden");
+  }
+})();
+
 // SUBSCRIBE MODAL
 (() => {
   const refs = {
@@ -141,5 +157,54 @@ setTimeout(() => {
   refs.closeSubscrModalBtn.addEventListener("click", toggleModal);
   function toggleModal() {
     refs.modal.classList.toggle("is-hidden");
+  }
+})();
+
+// SIGNUP MODAL WINDOW
+(() => {
+  const refs = {
+    openSignUpModalBtn: document.querySelector("[data-signup-modal-open]"),
+    openSignUpSecModalBtn: document.querySelector(
+      "[data-signup-modal-open-sec]"
+    ),
+    closeSignUpModalBtn: document.querySelector("[data-signup-modal-close]"),
+    modalSignUp: document.querySelector("[data-signup-modal]"),
+  };
+  refs.openSignUpModalBtn.addEventListener("click", toggleModal);
+  refs.openSignUpSecModalBtn.addEventListener("click", toggleModal);
+  refs.closeSignUpModalBtn.addEventListener("click", toggleModal);
+  function toggleModal() {
+    refs.modalSignUp.classList.toggle("is-hidden");
+  }
+})();
+
+// SIGNIN MODAL WINDOW
+(() => {
+  const refs = {
+    openSignInModalBtn: document.querySelector("[data-signin-modal-open]"),
+    closeSignInModalBtn: document.querySelector("[data-signin-modal-close]"),
+    modalSignIn: document.querySelector("[data-signin-modal]"),
+  };
+  refs.openSignInModalBtn.addEventListener("click", toggleModal);
+  refs.closeSignInModalBtn.addEventListener("click", toggleModal);
+  function toggleModal() {
+    refs.modalSignIn.classList.toggle("is-hidden");
+  }
+})();
+
+// CONTACT EXPERT MODAL WINDOW
+(() => {
+  const refs = {
+    openModalreviewBtn: document.querySelector("[data-modalreview-open]"),
+    closeModalreviewBtn: document.querySelector("[data-modalreview-close]"),
+    modalreview: document.querySelector("[data-modalreview]"),
+  };
+
+  refs.openModalreviewBtn.addEventListener("click", toggleModalreview);
+  refs.closeModalreviewBtn.addEventListener("click", toggleModalreview);
+
+  function toggleModalreview() {
+    refs.modalreview.classList.toggle("review-modal-is-hidden");
+    document.body.classList.toggle("no-scroll");
   }
 })();

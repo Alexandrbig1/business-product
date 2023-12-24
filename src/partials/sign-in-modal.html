@@ -1,0 +1,37 @@
+<div class="modal-backdrop is-hidden" data-signin-modal>
+  <div class="modal-start">
+    <button class="modal-start-close-btn" type="button" data-signin-modal-close>
+      <svg class="modal-start-close-icon" width="16" height="16">
+        <use href="/img/icons.svg#icon-close-icon"></use>
+      </svg>
+    </button>
+    <h2 class="modal-start-form-title">
+      Sign <span class="modal-start-form-title-right">In</span>
+    </h2>
+    <form class="modal-start-form">
+      <label class="modal-start-form-label">
+        <span class="modal-start-form-input-desc">Email</span>
+        <input
+          type="email"
+          name="user_mail"
+          class="modal-start-form-input"
+          placeholder="Enter your email"
+          required
+          pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$"
+        />
+      </label>
+      <label class="modal-start-form-label">
+        <span class="modal-start-form-input-desc">Password</span>
+        <span class="modal-start-input-wrapper"
+          ><input
+            type="password"
+            name="user_password"
+            class="modal-start-form-input"
+            placeholder="Password"
+          />
+        </span>
+      </label>
+      <button type="submit" class="modal-start-form-btn">Submit</button>
+    </form>
+  </div>
+</div>

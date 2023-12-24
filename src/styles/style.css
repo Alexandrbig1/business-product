@@ -1,11 +1,12 @@
 /* SUBSCRIBE MODAL */
 @import url('./subscribe-modal.css');
+@import url(./modal.css);
+@import url(./contact-expert.css);
 
 :root {
   --main-color: #02897A;
   --main-color-hover: #346c6d;
   --text-main-color: #22343D;
-  --text-secondary-color: ;
   --white-color: #fff;
   --secondary-bg-color: #EDEDED;
   --third-bg-color: #f5f5f5;
