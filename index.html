@@ -27,8 +27,8 @@
     />
 
     <title>Business &dash;&dash; product</title>
-    <script type="module" crossorigin src="/business-product/assets/index-QtVGSg6P.js"></script>
-    <link rel="stylesheet" crossorigin href="/business-product/assets/index-ArWzEUUS.css">
+    <script type="module" crossorigin src="/business-product/assets/index-RydAeKr9.js"></script>
+    <link rel="stylesheet" crossorigin href="/business-product/assets/index-5apWiU7J.css">
   </head>
   <body>
     <!-- HEADER -->
@@ -57,8 +57,16 @@
           </li>
         </ul>
         <ul class="header-btns">
-          <li><button class="header-btn--1">Sign In</button></li>
-          <li><button class="header-btn--2">Sign Up</button></li>
+          <li>
+            <button class="header-btn--1" type="button" data-signin-modal-open>
+              Sign In
+            </button>
+          </li>
+          <li>
+            <button class="header-btn--2" type="button" data-signup-modal-open>
+              Sign Up
+            </button>
+          </li>
         </ul>
       </nav>
     </div>
@@ -85,7 +93,9 @@
           most intuitive way to imagine your next user experience.
         </p>
         <div class="hero-btn-container">
-          <button class="hero-btn">Get started</button>
+          <button class="hero-btn" type="button" data-modal-open>
+            Get started
+          </button>
           <svg width="16" height="16">
             <use href="./img/symbol-defs.svg#icon-play1"></use>
           </svg>
@@ -139,7 +149,9 @@
         </li>
       </ul>
       <div class="feature-btn-container">
-        <button class="feature-btn">SIGN UP NOW</button>
+        <button class="feature-btn" type="button" data-signup-modal-open-sec>
+          SIGN UP NOW
+        </button>
       </div>
     </div>
   </section>
@@ -327,7 +339,9 @@
         </li>
       </ul>
       <div class="staff-btn-container">
-        <button class="staff-btn">Contact our expert</button>
+        <button class="staff-btn" type="button" data-modalreview-open>
+          Contact our expert
+        </button>
       </div>
     </div>
   </section>
@@ -610,7 +624,7 @@
         <p class="promo-text">
           Join 100 Compannies who boost their business with Product
         </p>
-        <button class="promo-btn">Get This</button>
+        <button class="promo-btn" data-modal-open-promo>Get This</button>
       </div>
       <svg class="promo-icon" width="350" height="350">
         <use href="./img/symbol-defs.svg#screen"></use>
@@ -710,6 +724,249 @@
     By Alex Smagin &copy; <span class="year">2023</span> All rights reserved.
   </p>
 </footer>
+
+
+    <!-- SIGNUP MODAL -->
+    <div class="modal-backdrop is-hidden" data-signup-modal>
+  <div class="modal-start">
+    <button class="modal-start-close-btn" type="button" data-signup-modal-close>
+      <svg class="modal-start-close-icon" width="16" height="16">
+        <use href="/business-product/img/icons.svg#icon-close-icon"></use>
+      </svg>
+    </button>
+    <h2 class="modal-start-form-title">
+      Sign <span class="modal-start-form-title-right">Up</span>
+    </h2>
+    <p class="modal-start-form-input-desc">Personal information</p>
+    <form class="modal-start-form">
+      <span class="modal-start-name-thumb">
+        <label class="modal-start-form-label modal-name-field">
+          <input
+            type="text"
+            name="user_name"
+            class="modal-start-form-input"
+            placeholder="Name"
+            required
+            pattern="^[a-zA-Z]+\s[a-zA-Z]+$"
+        /></label>
+        <label class="modal-start-form-label modal-name-field">
+          <input
+            type="text"
+            name="user_surname"
+            class="modal-start-form-input"
+            placeholder="Surname"
+            required
+            pattern="^[a-zA-Z]+\s[a-zA-Z]+$" /></label
+      ></span>
+      <label class="modal-start-form-label">
+        <span class="modal-start-form-input-desc">Email</span>
+        <input
+          type="email"
+          name="user_mail"
+          class="modal-start-form-input"
+          placeholder="Enter your email"
+          required
+          pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$"
+        />
+      </label>
+      <label class="modal-start-form-label">
+        <span class="modal-start-form-input-desc">Password</span>
+        <span class="modal-start-input-wrapper"
+          ><input
+            type="password"
+            name="user_password"
+            class="modal-start-form-input"
+            placeholder="Password"
+          />
+        </span>
+      </label>
+      <label class="modal-start-form-label">
+        <span class="modal-start-form-input-desc">Phone number</span>
+        <span class="modal-start-input-wrapper start-tel-thumb"
+          ><input
+            type="tel"
+            name="user_phone"
+            class="modal-start-form-input start-tel"
+            placeholder="Phone number"
+            required
+            pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" /><svg
+            class="modal-start-icon"
+            width="22"
+            height="13"
+          >
+            <use href="/business-product/img/icons.svg#icon-usa"></use></svg
+        ></span>
+      </label>
+
+      <button type="submit" class="modal-start-form-btn">Submit</button>
+    </form>
+  </div>
+</div>
+
+
+    <!-- SIGNIN MODAL -->
+    <div class="modal-backdrop is-hidden" data-signin-modal>
+  <div class="modal-start">
+    <button class="modal-start-close-btn" type="button" data-signin-modal-close>
+      <svg class="modal-start-close-icon" width="16" height="16">
+        <use href="/business-product/img/icons.svg#icon-close-icon"></use>
+      </svg>
+    </button>
+    <h2 class="modal-start-form-title">
+      Sign <span class="modal-start-form-title-right">In</span>
+    </h2>
+    <form class="modal-start-form">
+      <label class="modal-start-form-label">
+        <span class="modal-start-form-input-desc">Email</span>
+        <input
+          type="email"
+          name="user_mail"
+          class="modal-start-form-input"
+          placeholder="Enter your email"
+          required
+          pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$"
+        />
+      </label>
+      <label class="modal-start-form-label">
+        <span class="modal-start-form-input-desc">Password</span>
+        <span class="modal-start-input-wrapper"
+          ><input
+            type="password"
+            name="user_password"
+            class="modal-start-form-input"
+            placeholder="Password"
+          />
+        </span>
+      </label>
+      <button type="submit" class="modal-start-form-btn">Submit</button>
+    </form>
+  </div>
+</div>
+
+
+    <!-- MODAL -->
+    <div class="modal-backdrop is-hidden" data-modal>
+  <div class="modal-start">
+    <button class="modal-start-close-btn" type="button" data-modal-close>
+      <svg class="modal-start-close-icon" width="16" height="16">
+        <use href="/business-product/img/icons.svg#icon-close-icon"></use>
+      </svg>
+    </button>
+    <h2 class="modal-start-form-title">
+      Get <span class="modal-start-form-title-right">Started</span>
+    </h2>
+    <p class="modal-start-form-input-desc">Personal information</p>
+    <form class="modal-start-form">
+      <span class="modal-start-name-thumb">
+        <label class="modal-start-form-label modal-name-field">
+          <input
+            type="text"
+            name="user_name"
+            class="modal-start-form-input"
+            placeholder="Name"
+            required
+            pattern="^[a-zA-Z]+\s[a-zA-Z]+$"
+        /></label>
+        <label class="modal-start-form-label modal-name-field">
+          <input
+            type="text"
+            name="user_surname"
+            class="modal-start-form-input"
+            placeholder="Surname"
+            required
+            pattern="^[a-zA-Z]+\s[a-zA-Z]+$" /></label
+      ></span>
+      <label class="modal-start-form-label">
+        <span class="modal-start-form-input-desc">Email</span>
+        <input
+          type="email"
+          name="user_mail"
+          class="modal-start-form-input"
+          placeholder="Enter your email"
+          required
+          pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$"
+        />
+      </label>
+      <label class="modal-start-form-label">
+        <span class="modal-start-form-input-desc">Phone number</span>
+        <span class="modal-start-input-wrapper start-tel-thumb"
+          ><input
+            type="tel"
+            name="user_phone"
+            class="modal-start-form-input start-tel"
+            placeholder="Phone number"
+            required
+            pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" /><svg
+            class="modal-start-icon"
+            width="22"
+            height="13"
+          >
+            <use href="/business-product/img/icons.svg#icon-usa"></use></svg
+        ></span>
+      </label>
+      <label class="modal-start-form-label">
+        <span class="modal-start-form-input-desc">Comment</span>
+        <textarea
+          name="user_message"
+          class="modal-start-form-message"
+          placeholder="Enter text"
+        ></textarea>
+      </label>
+      <button type="submit" class="modal-start-form-btn">Submit</button>
+    </form>
+  </div>
+</div>
+
+
+    <!-- CONTACT EXPORT MODAL -->
+    <div class="review-modal-backdrop review-modal-is-hidden" data-modalreview>
+  <div class="review-modal">
+    <button type="button" class="review-modal-close-btn" data-modalreview-close>
+      <svg width="24" height="24" class="review-modal-close-svg">
+        <use href="/business-product/img/icons.svg#icon-close-icon"></use>
+      </svg>
+    </button>
+    <p class="review-modal-text">
+      Contact <span class="review-modal-span">our expert</span>
+    </p>
+    <form action="#">
+      <div class="review-modal-wrap-cnt">
+        <label>
+          <input
+            type="text"
+            name="user-name"
+            class="review-modal-input"
+            required
+            maxlength="20"
+            minlength="3"
+            placeholder="Name"
+          />
+        </label>
+      </div>
+      <div class="review-modal-wrap-cnt">
+        <label>
+          <input
+            type="email"
+            name="user-email"
+            class="review-modal-input"
+            required
+            placeholder="Enter your email"
+          />
+        </label>
+      </div>
+      <div class="review-modal-text-area">
+        <label for="review-modal-text-area"></label>
+        <textarea
+          name="review-modal-text-area"
+          id="review-modal-text-area"
+          placeholder="Enter text"
+          class="review-modal-textarea"
+        ></textarea>
+      </div>
+      <button type="submit" class="review-modal-button">Send</button>
+    </form>
+  </div>
+</div>
 
 
     <!-- SUBSCRIBE MODAL -->
